@@ -1,0 +1,17 @@
+/* 改变主题色变量 */
+$--color-primary: rgba(0, 236, 253, 0.404);
+$--color-white: rgba(255, 255, 255, 0.1);
+$--background-color: red;
+$--background-color-base: rgba(0, 0, 0, 0.1);
+$--color-text-primary: white;
+$--color-text-regular: white; // form label等字体
+$--color-text-secondary: aqua;
+
+/* button */
+$--primary-font-color: white;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+
+@import "~element-ui/packages/theme-chalk/src/index";
