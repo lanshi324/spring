@@ -48,4 +48,46 @@
     }
   }
 }
+
+// --------------------------------------
+// --------------------------------------
+// --------------------------------------
+// --------------------------------------
+@media screen and (max-width: 750px) {
+  .container {
+    .main {
+      min-height: 100vh;
+      max-height: 100vh;
+      .header {
+        height: 10vh;
+        .row {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          .logo {
+            margin-top: 2.5vh;
+            width: 8vw;
+            border-radius: 20%;
+          }
+          .title {
+            display: flex;
+            margin-left: 1vh;
+            margin-top: 2.5vh;
+            font-size: 2.6vh;
+            width: 80vh;
+          }
+        }
+      }
+      .body {
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.11);
+        max-height: 80vh;
+        min-height: 70vh;
+        max-width: 90vw;
+        min-width: 70vw;
+      }
+    }
+  }
+}
 </style>

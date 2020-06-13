@@ -1,6 +1,8 @@
 <template>
   <div class="com-name">
-    <el-button class="button" type="text">{{ name }}</el-button>
+    <el-button class="button" type="text">
+      <span>{{ name }}</span>
+    </el-button>
   </div>
 </template>
 

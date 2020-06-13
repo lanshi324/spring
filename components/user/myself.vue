@@ -1,7 +1,7 @@
 <template>
   <div class="com-myself">
     <el-button class="button" type="text">
-      个人中心
+      <span>个人中心</span>
     </el-button>
   </div>
 </template>

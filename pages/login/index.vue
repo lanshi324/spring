@@ -20,6 +20,13 @@ export default {
       toSignin: true
     }
   },
+
+  mounted() {
+    // const info = this.$route.params.menuName
+    // console.log(this.$route.query.desc)
+    console.log(this.$route.params.desc)
+    console.log(this.$route.params)
+  },
   methods: {
     jump(toSignin) {
       this.toSignin = toSignin
